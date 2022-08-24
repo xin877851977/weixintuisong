@@ -54,5 +54,4 @@ data = {"weather":{"value":wea, "color":get_random_color()},"temperature":{"valu
         "words":{"value":get_words(), "color":get_random_color()}}
 res = wm.send_template(user_id, template_id, data)
 print(res)
-ress = wm.send_template("oaBov5reqVVSf0wN_CS-_30l3sPY", template_id, data)
-print(ress)
+
